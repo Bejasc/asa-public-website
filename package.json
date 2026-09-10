@@ -1,0 +1,29 @@
+{
+	"name": "asa-homepage",
+	"version": "1.0.0",
+	"author": "Bejasc",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "quasar dev",
+		"build": "quasar build"
+	},
+	"dependencies": {
+		"@quasar/extras": "^1.17.0",
+		"quasar": "^2.18.1",
+		"vue": "^3.5.17",
+		"vue-router": "^4.5.1"
+	},
+	"devDependencies": {
+		"@quasar/app-vite": "2.6.0",
+		"@types/node": "^24.0.15",
+		"autoprefixer": "^10.4.21",
+		"typescript": "~5.8.3",
+		"vite-plugin-checker": "^0.10.0",
+		"vue-tsc": "^3.0.3"
+	},
+	"engines": {
+		"node": ">=22.22.0",
+		"npm": ">= 6.13.4"
+	}
+}

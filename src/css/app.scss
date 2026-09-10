@@ -1,0 +1,31 @@
+:root {
+	--sc-text: #fff;
+	--sc-foreground: #064a7c;
+	--sc-background: #161922;
+	--sc-error: #853432;
+	--sc-warn: #856432;
+	--sc-success: #225a35;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Oxanium");
+
+body {
+	font-family: "Oxanium", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #ffeb3b;
+	font-size: 1.075em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
